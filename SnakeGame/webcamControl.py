@@ -159,7 +159,7 @@ while True:
             print("Up Pressed")
     #Algılanan yön Güney ise, aşağı tuşuna basın
     elif direction == 'South':
-        if last_pressed != 'dqown':
+        if last_pressed != 'down':
             pyautogui.press('down')#aşağı tuşuna basar
             last_pressed = 'down'
             print("Down Pressed")
